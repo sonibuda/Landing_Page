@@ -1,0 +1,211 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+h1{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+a, .secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+  
+}
+
+h5{
+    font-size: 24px;
+    color: #f9faf8;
+/*this is the 'hero secondary text. I may need to rename into a class at a later date, depending on how styling goes.*/
+}
+
+button, .body3{
+    background-color: 
+    #3882f6;
+    color: #f9faf8;
+
+   
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2937;
+}
+
+.body2{
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.credit{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+button{
+    padding: 5px 18px;
+    border-radius: 10%;
+}
+
+.button1{
+    font-weight: bold;
+  border-radius: 10%
+  display: flex;
+  align-self: flex-start;
+}
+
+.button2{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 50;
+    color: #e5e73b;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 10px 50px;
+  
+}
+/*margin here isn't right- figure out why before 
+considering yourself done*/
+
+.header2{
+    display: flex;
+ 
+}
+
+.header2left{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 50px 100px;
+    justify-content: center;
+    text-align: left;
+    align-content: center;
+}
+
+.header_img{
+    display: flex;
+    padding: 0px 50px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.body1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.body1images{
+    display: flex;
+    gap: 50px;
+    padding: 0px 50px 50px 100px;
+    text-align: center;
+ 
+}
+
+
+.image{
+    border-radius: 10%;
+}
+
+.img1, .img2, .img3, .img4{
+    display: flex;
+    flex-direction: column;
+}
+
+.body1images p{
+   padding: 0px 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 75px 5px 75px;
+    text-align: left;
+}
+
+.credit{
+    padding-right: 125px;
+    padding-top: 0px;
+   
+}
+
+.body2{
+   padding: 50px 75px;
+}
+
+.body3{
+    margin: 50px 75px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    flex-wrap: wrap;
+
+}
+
+footer{
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-weight: 50;
+}
+
+
+
+
+
+
+
+
+
+
+
