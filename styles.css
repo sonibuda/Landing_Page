@@ -142,6 +142,7 @@ considering yourself done*/
 .img1, .img2, .img3, .img4{
     display: flex;
     flex-direction: column;
+    max-width: 300px;
 }
 
 .body1images p{
@@ -178,6 +179,7 @@ considering yourself done*/
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+   
     
 }
 
@@ -186,6 +188,7 @@ considering yourself done*/
     flex-direction: column;
     padding: 0px 25px;
     flex-wrap: wrap;
+    
 
 }
 
@@ -197,6 +200,10 @@ footer{
     align-items: center;
     color: #e5e7eb;
     font-weight: 50;
+}
+
+.call p{
+    margin-top: -10px;
 }
 
 
